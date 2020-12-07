@@ -12,6 +12,10 @@ while [ "$count" -lt 20 ]; do
     sleep 1
 done
 
+terraform version
+python --version
+env
+
 cat >my-artifact.html <<EOF
 <html>
 <body>
